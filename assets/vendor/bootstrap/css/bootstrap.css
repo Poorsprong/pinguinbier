@@ -6618,13 +6618,13 @@ a.close.disabled {
 }
 
 .carousel-caption {
-  position: absolute;
+  position: relative;
   right: 15%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 200px;
   color: #fff;
   text-align: center;
 }

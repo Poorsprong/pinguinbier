@@ -41,6 +41,44 @@ blockquote {
   font-weight: bold;
 }
 
+.spacernav{
+  margin-bottom: 0px;
+  height: 85px;
+}
+
+.carousel-inner .carousel-item{
+height: calc(100vh - 85px);
+background-size:cover;
+background-position: center center;
+}
+
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width:15px;
+  height:15px;
+  border-radius:50%;
+}
+
+ol.carousel-indicators li.active {
+  background-color: $primary;
+}
+
+.carousel-control-nexticon,
+.carousel-control-previcon{
+  color: $primary;
+}
+
+.whiteoverlay{
+/* filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(55deg) brightness(105%) contrast(101%); */
+/*filter: invert(76%) sepia(10%) saturate(6342%) hue-rotate(359deg) brightness(103%) contrast(98%) drop-shadow(7px 7px 7px rgba(255,255,255,0.8));*/
+overflow: hidden;
+}
 
 .section-heading {
   font-size: 36px;

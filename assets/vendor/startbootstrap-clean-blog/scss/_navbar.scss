@@ -1,12 +1,12 @@
 // Styling for the navbar
 #mainNav {
-  position: absolute;
+  position: fixed-top;
   border-bottom: 1px solid $gray-800;
   background-color: $white;
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: #fcba04;
+    color: #524f4a;
   }
 
 
@@ -32,9 +32,10 @@
       }
     }
   }
+
   @media only screen and (min-width: 992px) {
     border-bottom: 1px solid transparent;
-    background: transparent;
+    background: #524f4a;
     .navbar-brand {
       color: $white;
       &:focus,
@@ -54,11 +55,13 @@
       }
     }
   }
+}
+  /*
   @media only screen and (min-width: 992px) {
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
     transition: background-color 0.2s;
-    /* Force Hardware Acceleration in WebKit */
+    /* Force Hardware Acceleration in WebKit
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -66,9 +69,9 @@
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     &.is-fixed {
-      /* when the user scrolls down, we hide the header right above the viewport */
+      /* when the user scrolls down, we hide the header right above the viewport
       position: fixed;
-      top: -90px;
+      top: 0px;
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
@@ -94,7 +97,7 @@
       }
     }
     &.is-visible {
-      /* if the user changes the scrolling direction, we show the header */
+      /* if the user changes the scrolling direction, we show the header
       -webkit-transform: translate3d(0, 100%, 0);
       -moz-transform: translate3d(0, 100%, 0);
       -ms-transform: translate3d(0, 100%, 0);
@@ -103,3 +106,4 @@
     }
   }
 }
+*/
