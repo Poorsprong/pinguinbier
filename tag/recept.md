@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 background: '/img/bg-tag.jpg'
-title: "Tag: Recept"
-tag: Recept
+title: "Tag: recept"
+tag: recept
 ---
